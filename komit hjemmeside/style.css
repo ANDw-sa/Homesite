@@ -1,0 +1,86 @@
+/* ====== GENERELT ====== */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+/* ====== HEADER ====== */
+
+header {
+    background: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 15px;
+    background: #0055aa;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    background: #0077dd;
+}
+
+/* ====== HERO SEKTION ====== */
+
+.hero {
+    background: #e8f1ff;
+    padding: 40px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+/* ====== INDHOLD ====== */
+
+.content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.content ul {
+    line-height: 1.8;
+}
+
+/* ====== FOOTER ====== */
+
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Linkfarve i footeren */
+footer a {
+    color: white;
+}
+
+/* Hover-effekt */
+footer a:hover {
+    color: #e0e0e0;
+}
